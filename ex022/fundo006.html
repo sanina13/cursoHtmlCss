@@ -4,18 +4,21 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Fundo fixo de tela</title>
 	<style>
 		body{
 			height: 100vh;
 			background-color: black;
 			background-image: url(imagens/wallpaper002.jpg);
 			background-position: center center;
-			background-repeat: no-repeat;
+			background-repeat: repeat-y;
 			background-size: cover; /*100%, auto, contain, cover*/
+			background-attachment: fixed;
+
+			background: black url(imagens/wallpaper002.jpg) center center repeat-y cover fixed;
 		}
 		main{
-			width: 400px;
+			max-width: 400px;
 			padding: 10px;
 			margin: auto;
 			background-color: white;
@@ -27,6 +30,8 @@
 <body>
 	<main>
 		<h1>Teste de Imagem de Fundo</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, reiciendis soluta? Debitis itaque libero adipisci et hic maxime quod saepe, illo dolores in nemo voluptatem aspernatur. Voluptatem non optio quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates ipsam aliquid enim tempora temporibus asperiores sunt. Culpa ratione eum repellendus numquam facilis quod ipsa quidem quia architecto. Molestiae, consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut amet veniam cum dolores ipsam? Amet doloremque, perferendis at placeat repudiandae a, ducimus atque vel aspernatur enim aut vitae laudantium?</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, reiciendis soluta? Debitis itaque libero adipisci et hic maxime quod saepe, illo dolores in nemo voluptatem aspernatur. Voluptatem non optio quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates ipsam aliquid enim tempora temporibus asperiores sunt. Culpa ratione eum repellendus numquam facilis quod ipsa quidem quia architecto. Molestiae, consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut amet veniam cum dolores ipsam? Amet doloremque, perferendis at placeat repudiandae a, ducimus atque vel aspernatur enim aut vitae laudantium?</p>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, reiciendis soluta? Debitis itaque libero adipisci et hic maxime quod saepe, illo dolores in nemo voluptatem aspernatur. Voluptatem non optio quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates ipsam aliquid enim tempora temporibus asperiores sunt. Culpa ratione eum repellendus numquam facilis quod ipsa quidem quia architecto. Molestiae, consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut amet veniam cum dolores ipsam? Amet doloremque, perferendis at placeat repudiandae a, ducimus atque vel aspernatur enim aut vitae laudantium?</p>
 	</main>	
 </body>
